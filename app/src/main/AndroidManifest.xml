@@ -39,6 +39,10 @@
             <action android:name="com.jackieloven001.nutritionapp.DISPLAYSETTINGS" />
         </intent-filter></activity>
 
+        <activity android:name=".SwipeFoods"><intent-filter>
+            <action android:name="com.jackieloven001.nutritionapp.SWIPEFOODS" />
+        </intent-filter></activity>
+
     </application>
 
 </manifest>

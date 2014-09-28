@@ -51,6 +51,7 @@ public class NewUserSettings extends Activity {
                 editor.putString("userWeight", userWeight.getText().toString());
                 editor.putString("userAge", userAge.getText().toString());
 
+
                 editor.commit();
 
                 Intent intent = new Intent(getApplicationContext(),DisplaySettings.class);

@@ -10,7 +10,7 @@
         android:id="@+id/sp_color"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:layout_height="500dp">
 
         <ImageView
             android:id="@+id/sp_image"

@@ -22,13 +22,19 @@ public class PickFoods extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add_foods);
 
+        View mainViewPick;
+
         final AutoCompleteTextView inputFood1view = (AutoCompleteTextView) findViewById(R.id.inputFood1);
         final AutoCompleteTextView inputFood2view= (AutoCompleteTextView) findViewById(R.id.inputFood2);
         final AutoCompleteTextView inputFood3view = (AutoCompleteTextView) findViewById(R.id.inputFood3);
 
-        ImageButton btnSaveFoods = (ImageButton) findViewById(R.id.btnSaveFoods);
+        mainViewPick = (View) findViewById(R.id.addLayout);
+        mainViewPick.setBackgroundColor(getResources().getColor(R.color.slightGreen));
 
-       btnSaveFoods.setOnClickListener(new View.OnClickListener() {
+        ImageButton btnSaveFoods = (ImageButton) findViewById(R.id.btnSaveFoods);
+        btnSaveFoods.setBackgroundResource(R.drawable.find_my_food);
+
+        btnSaveFoods.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

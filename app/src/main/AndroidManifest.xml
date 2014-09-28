@@ -39,8 +39,17 @@
             <action android:name="com.jackieloven001.nutritionapp.DISPLAYSETTINGS" />
         </intent-filter></activity>
 
+        <activity android:name=".PickFoods"><intent-filter>
+            <action android:name="com.jackieloven001.nutritionapp.PICKFOODS" />
+        </intent-filter></activity>
+
+
         <activity android:name=".SwipeFoods"><intent-filter>
             <action android:name="com.jackieloven001.nutritionapp.SWIPEFOODS" />
+        </intent-filter></activity>
+
+        <activity android:name=".DisplaySettings2"><intent-filter>
+            <action android:name="com.jackieloven001.nutritionapp.DISPLAYSETTINGS2" />
         </intent-filter></activity>
 
     </application>

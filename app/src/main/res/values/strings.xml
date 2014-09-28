@@ -21,5 +21,8 @@
     <string name="Title03">Your Weight:</string>
     <string name="Title04">Your Age:</string>
     <string name="Title05">Your Gender:</string>
+    <string name="Title06">Your Food:</string>
+
+
 
 </resources>

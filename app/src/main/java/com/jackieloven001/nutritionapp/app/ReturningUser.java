@@ -45,7 +45,7 @@ public class ReturningUser extends Activity {
                 // TODO Auto-generated method stub
                 // introduce the SharedPreferences object as an object called
                 // settings
-                Intent intent = new Intent(getApplicationContext(),SwipeFoods.class);
+                Intent intent = new Intent(getApplicationContext(),PickFoods.class);
                 startActivity(intent);
 
             }
